@@ -130,4 +130,6 @@ class SpotifyAPI (object):
         query_parameters = urlencode({"q": query, "type": search_type.lower()})
         print(query_parameters)
         return self.base_search(query_parameters)
-
+    
+    def favourite_Song(self, favourite="Train Song")
+        return favourite
