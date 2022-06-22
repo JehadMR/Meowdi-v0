@@ -131,5 +131,6 @@ class SpotifyAPI (object):
         print(query_parameters)
         return self.base_search(query_parameters)
     
-    def favourite_Song(self, favourite="Train Song")
+    def favourite_Song(self, favouriteDesc="Train Song")
+    search(favouriteDesc)
         return favourite
